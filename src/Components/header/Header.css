@@ -1,0 +1,97 @@
+:root {
+    --bg-color: #1f1f38;
+    --bg-variant-color: #2c2c6c;
+    --primary-color: #ee05ff;
+    --primary-variant-color: rgba(77, 181, 255, 0.4);
+    --white-color: #fff;
+    --color-light: rgba(255, 255, 255, 0.6);
+
+
+    --transition: all 400ms ease;
+    --contenair-width-lg: 75%;
+    --contenair-width-md: 86%;
+    --contenair-width-ms: 90%;
+}
+
+header {
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+.container__header {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+
+/* btn-header */
+
+.btn-header {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+/* Social-header */
+.heade-social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+
+.heade-social ::after {
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--primary-color);
+}
+
+/* Me */
+.me {
+    background: linear-gradient(var(--primary-color), transparent);
+    height: 30rem;
+    width: 22rem;
+    border-radius: 12rem 12rem 0 0;
+    margin-left: 40%;
+    margin-top: 3rem;
+    overflow: hidden;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+
+}
+
+/*scroll-down*/
+.scroll-down {
+    position: absolute;
+    right: 2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 200;
+    font-size: 0.9rem;
+}
+
+/*Media Query*/
+@media screen and (max-width: 1024px) {
+    header {
+        height: 68vh;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
+    }
+
+    .heade-social,
+    .scroll-down {
+        display: none;
+    }
+}

@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --bg-color: #1f1f38;
+  --bg-variant-color: #2c2c6c;
+  --primary-color: #ee05ff;
+  --primary-variant-color: rgba(77, 181, 255, 0.4);
+  --white-color: #fff;
+  --color-light: rgba(255, 255, 255, 0.6);
+
+
+  --transition: all 400ms ease;
+  --contenair-width-lg: 75%;
+  --contenair-width-md: 86%;
+  --contenair-width-ms: 90%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--white-color);
+  line-height: 1.7;
+}
+
+.container {
+  width: var(--contenair-width-lg);
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h2,
+h4,
+h5 {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+section {
+  margin-top: 8rem;
+}
+
+section>h2,
+section>h5 {
+  text-align: center;
+  color: var(--color-light);
+}
+
+section>h2 {
+  color: var(--primary-color);
+  margin-bottom: 3rem;
+}
+
+.text-light {
+  color: var(--color-light);
+}
+
+a {
+  color: var(--primary-color);
+  transition: var(--transition);
+}
+
+a:hover {
+  color: var(--white-color);
+}
+
+.btn {
+  width: max-content;
+  display: inline-block;
+  color: var(--primary-color);
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid var(--primary-color);
+  transition: var(--transition);
+}
+
+.btn:hover {
+  background: #ee05ff;
+  color: var(--bg-color);
+  border-color: transparent;
+}
+
+.btn-primary:hover {
+  background: transparent;
+  color:var(--primary-color);
+  border-color: #ee05ff;
+
+}
+
+.btn-primary {
+  background: var(--primary-color);
+  color: var(--bg-color);
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--contenair-width-md);
+  }
+
+  section {
+    margin-top: 6rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--contenair-width-ms);
+  }
+
+  section>h2 {
+    margin-top: 2rem;
+  }
+}
