@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 const HeaderSocial = () => {
     return (
-        <div className="heade-social">
+        <div className="header-social">
             <a href="https://linkdin.com" target='blank'><BsLinkedin /></a>
             <a href="https://github.com" target='blank'><FaGithub /></a>
             <a href="https://instagram.com" target='blank'><FaInstagram /></a>

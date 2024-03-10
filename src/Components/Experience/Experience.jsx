@@ -2,7 +2,10 @@ import React from 'react'
 import './Experience.css'
 const Experience = () => {
   return (
-    <div>Experience</div>
+    <section id='experience'>
+      Experience
+
+    </section>
   )
 }
 

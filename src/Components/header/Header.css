@@ -36,7 +36,7 @@ header {
 }
 
 /* Social-header */
-.heade-social {
+.header-social {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,7 +46,7 @@ header {
     bottom: 3rem;
 }
 
-.heade-social ::after {
+.header-social::after {
     content: '';
     width: 1px;
     height: 2rem;
