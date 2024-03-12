@@ -12,7 +12,7 @@
   --bg-color: #1f1f38;
   --bg-variant-color: #2c2c6c;
   --primary-color: #ee05ff;
-  --primary-variant-color: rgba(77, 181, 255, 0.4);
+  --primary-variant-color: linear-gradient(45deg, #ee05ff, #a209ad);
   --white-color: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
 

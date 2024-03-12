@@ -1,17 +1,4 @@
-:root {
-    --bg-color: #1f1f38;
-    --bg-variant-color: #2c2c6c;
-    --primary-color: #ee05ff;
-    --primary-variant-color: rgba(77, 181, 255, 0.4);
-    --white-color: #fff;
-    --color-light: rgba(255, 255, 255, 0.6);
 
-
-    --transition: all 400ms ease;
-    --contenair-width-lg: 75%;
-    --contenair-width-md: 86%;
-    --contenair-width-ms: 90%;
-}
 
 header {
     height: 100vh;
