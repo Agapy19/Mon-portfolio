@@ -100,6 +100,41 @@ const Service = () => {
             </li>
           </ul>
         </article>
+        <article className="service">
+          <div className="service-head">
+            <h3>Developpement Web</h3>
+          </div>
+          <ul className="service-list">
+            <li>
+              <FiCheck className='service-list-icon' />
+              <p>Création des images Personnalisées
+                Graphiques
+                 </p>
+            </li>
+            <li>
+              <FiCheck className='service-list-icon' />
+              <p>Présentation des Contenu Multimédia(
+                Vidéos Tutorielles,
+                Podcasts,
+                Webinaires,
+                Présentations Interactives
+                )
+                </p>
+            </li>
+            <li>
+              <FiCheck className='service-list-icon' />
+              <p>Conception des bannières publicitaires</p>
+            </li>
+            <li>
+              <FiCheck className='service-list-icon' />
+              <p>Création des vidéos promotionnelles</p>
+            </li>
+            <li>
+              <FiCheck className='service-list-icon' />
+              <p>Conception des  graphiques</p>
+            </li>
+          </ul>
+        </article>
       </div>
     </section>
   )
