@@ -15,7 +15,7 @@
 
 .service:hover {
     background: transparent;
-    border-color: var(--primary-variant-color);
+    border-color: var(--color-light);
     cursor: default;
 }
 
@@ -53,21 +53,23 @@
 
 @media screen and (max-width: 1024px) {
     .services-container {
-        grid-template-columns:  1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         gap: 2rem;
-    
+
     }
-    .service{
+
+    .service {
         height: auto;
     }
 }
 
 @media screen and (max-width: 600px) {
     .services-container {
-        grid-template-columns:  1fr;
+        grid-template-columns: 1fr;
         gap: 1.5rem;
-    
+
     }
+
     /* .service{
         height: auto;
     } */

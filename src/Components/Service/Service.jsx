@@ -4,7 +4,7 @@ import { FiCheck } from "react-icons/fi";
 const Service = () => {
   return (
     <section id='service'>
-      <h5>Ce que je peux vous  offrir</h5>
+      {/* <h5>Ce que je peux vous  offrir</h5> */}
       <h2>Mes Services</h2>
       <div className="container services-container">
         <article className="service">
@@ -67,14 +67,14 @@ const Service = () => {
         {/* FIN DES SERVICE WEB DEVELOPPEMENT */}
         <article className="service">
           <div className="service-head">
-            <h3>Developpement Web</h3>
+            <h3>Création du contenu</h3>
           </div>
           <ul className="service-list">
             <li>
               <FiCheck className='service-list-icon' />
               <p>Création des images Personnalisées
                 Graphiques
-                 </p>
+              </p>
             </li>
             <li>
               <FiCheck className='service-list-icon' />
@@ -84,7 +84,7 @@ const Service = () => {
                 Webinaires,
                 Présentations Interactives
                 )
-                </p>
+              </p>
             </li>
             <li>
               <FiCheck className='service-list-icon' />
@@ -102,36 +102,30 @@ const Service = () => {
         </article>
         <article className="service">
           <div className="service-head">
-            <h3>Developpement Web</h3>
+            <h3>Gestion de projet</h3>
           </div>
           <ul className="service-list">
             <li>
               <FiCheck className='service-list-icon' />
-              <p>Création des images Personnalisées
-                Graphiques
-                 </p>
+              <p>Git
+              </p>
             </li>
             <li>
               <FiCheck className='service-list-icon' />
-              <p>Présentation des Contenu Multimédia(
-                Vidéos Tutorielles,
-                Podcasts,
-                Webinaires,
-                Présentations Interactives
-                )
-                </p>
+              <p>GitHub
+              </p>
             </li>
             <li>
               <FiCheck className='service-list-icon' />
-              <p>Conception des bannières publicitaires</p>
+              <p>Asana</p>
             </li>
             <li>
               <FiCheck className='service-list-icon' />
-              <p>Création des vidéos promotionnelles</p>
+              <p>Scrum</p>
             </li>
             <li>
               <FiCheck className='service-list-icon' />
-              <p>Conception des  graphiques</p>
+              <p>Trello</p>
             </li>
           </ul>
         </article>
