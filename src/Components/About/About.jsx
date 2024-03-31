@@ -35,8 +35,7 @@ const About = () => {
           </div>
           <div className='about-content-text'>
               <p>Salut, je suis Agapy Mafo, Une développeuse web, je fais de la programmation back-end et
-                        front-end, et de la configuration et
-                        gestion de serveurs. Passionnée par l’univers du web,doté des compétences nécessaires en développement des sites internet.Le développement front-end ,back-end et le web design font parties de mon quotidien.</p>
+                        front-end. Passionnée par l’univers du web,doté des compétences nécessaires en développement des sites internet.Le développement front-end ,back-end et le web design font parties de mon quotidien.</p>
                 <a href="#contact" className='btn btn-primary'>Let's talk</a>
             </div>
         </div>

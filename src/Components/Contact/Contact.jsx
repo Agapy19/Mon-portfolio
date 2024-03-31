@@ -4,7 +4,29 @@ import { MdOutlineEmail } from "react-icons/md";
 import { FaWhatsapp } from "react-icons/fa6";
 import { RiMessengerLine } from "react-icons/ri";
 import { FaInstagramSquare } from "react-icons/fa";
+import  { useRef } from 'react';
+import emailjs from 'emailjs-com';
 const Contact = () => {
+
+
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_3oajavs', 'template_sidry8s', form.current, {
+        publicKey: 'ZpjGkRde5U7smoz-k',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
+
   return (
     <section id='contact'>
       {/* <h5>Entrons en contact</h5> */}
@@ -35,8 +57,8 @@ const Contact = () => {
             <a href="https://www.instagram.com/call_me_ayadra/">Envoyez-moi un message</a>
           </article>
         </div>
-        <form>
-          <input type="text" name="nom" placeholder='votre nom complet' required />
+        <form ref={form} onSubmit={sendEmail}>
+          <input type="name" name="nom" placeholder='votre nom complet' required />
           <input type="email" name="email" placeholder='votre adresse email' required />
           <textarea name="message" rows="7" placeholder='votre message' required></textarea>
           <button type='submit' className='btn btn-primary'>Envoyer</button>

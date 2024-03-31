@@ -9,6 +9,7 @@ import Experience from './Components/Experience/Experience'
 import Service from './Components/Service/Service'
 import Portfolio from './Components/portfolio/Portfolio'
 import Contact from './Components/Contact/Contact'
+import Footer from './Components/Footer/Footer'
 
 function App() {
  
@@ -21,6 +22,7 @@ function App() {
     <Service/>
     <Portfolio/>
     <Contact/>
+    <Footer/>
     </>
   )
 }
