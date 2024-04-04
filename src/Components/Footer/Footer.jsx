@@ -26,9 +26,9 @@ const Footer = () => {
                 </li>
             </ul>
             <div className="footer-socials">
-                <a href="http://facebook.com" ><FaFacebook /></a>
-                <a href="http://instagram.com"><FaInstagram /></a>
-                <a href="http://tiktok.com"><FaTiktok /></a>
+                <a href="https://web.facebook.com/agapy.mafo.3/?locale=fr_FR" ><FaFacebook /></a>
+                <a href="https://www.instagram.com/call_me_ayadra/"><FaInstagram /></a>
+                <a href="https://www.tiktok.com/@coeurnoir009?lang=fr"><FaTiktok /></a>
             </div>
             <div className="footer-copyright">
                 <small>&copy;Agapy Mafo pour tout vos services</small>

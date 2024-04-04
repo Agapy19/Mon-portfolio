@@ -11,7 +11,7 @@ const data = [
     id: 1,
     image: iwz,
     titre: "iwz connection",
-    github: "https://github.com",
+    github: "https://github.com/Agapy19/IWZ-CONNECTION",
     demo: " https://agapy19.github.io/IWZ-CONNECTION/",
 
   },
@@ -19,7 +19,7 @@ const data = [
     id: 2,
     image: wast,
     titre: "Wast management",
-    github: "https://github.com",
+    github: "https://github.com/Agapy19/Wast-Management",
     demo: " https://agapy19.github.io/IWZ-CONNECTION/",
 
   },
@@ -27,7 +27,7 @@ const data = [
     id: 3,
     image: tictac,
     titre: "tic tac toe game",
-    github: "https://github.com",
+    github: "https://github.com/Agapy19/Tic-tac-toe",
     demo: " https://agapy19.github.io/IWZ-CONNECTION/",
 
   },
@@ -35,7 +35,7 @@ const data = [
     id: 4,
     image: todolist,
     titre: "to do list",
-    github: "https://github.com",
+    github: "https://github.com/Agapy19/ToDoList",
     demo: " https://agapy19.github.io/IWZ-CONNECTION/",
 
   },
@@ -43,7 +43,7 @@ const data = [
     id: 5,
     image: todolist,
     titre: "carnet des contacts",
-    github: "https://github.com",
+    github: "https://github.com/Agapy19/CARNET-DES-CONTACTS",
     demo: " https://agapy19.github.io/IWZ-CONNECTION/",
 
   },
@@ -51,7 +51,7 @@ const data = [
     id: 6,
     image: tictac,
     titre: "ludo game",
-    github: "https://github.com",
+    github: "https://github.com/Agapy19/Ludo-game",
     demo: " https://agapy19.github.io/IWZ-CONNECTION/",
 
   },
