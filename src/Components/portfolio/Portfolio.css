@@ -1,6 +1,6 @@
  .portfolio-container{
 display: grid;
-grid-template-columns: 1fr 1fr 1fr;
+grid-template-columns: 1fr;
 gap: 2.5rem;
 }
  .portfolio-container .portfolio-item{

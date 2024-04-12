@@ -15,14 +15,14 @@ const data = [
     demo: " https://agapy19.github.io/IWZ-CONNECTION/",
 
   },
-  {
-    id: 2,
-    image: wast,
-    titre: "Wast management",
-    github: "https://github.com/Agapy19/Wast-Management",
-    demo: " https://agapy19.github.io/IWZ-CONNECTION/",
+  // {
+  //   id: 2,
+  //   image: wast,
+  //   titre: "Wast management",
+  //   github: "https://github.com/Agapy19/Wast-Management",
+  //   demo: " https://agapy19.github.io/IWZ-CONNECTION/",
 
-  }
+  // }
 //   {
 //     id: 3,
 //     image: tictac,
