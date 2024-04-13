@@ -31,7 +31,7 @@ const Footer = () => {
                 <a href="https://www.tiktok.com/@coeurnoir009?lang=fr"><FaTiktok /></a>
             </div>
             <div className="footer-copyright">
-                <small>&copy;Agapy Mafo pour tout vos services</small>
+            <small>&copy;Agapy Mafo Dev Women pour tous vos services</small>
             </div>
         </footer>
     )
