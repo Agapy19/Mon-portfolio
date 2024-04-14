@@ -11,14 +11,18 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+  
     emailjs.sendForm('service_3oajavs', 'template_sidry8s', formRef.current, 'ZiTN_ZQcU0dWjm1Zn')
       .then((result) => {
         console.log(result.text);
         setSubmissionStatus('success');
-      }, (error) => {
+        alert("Votre message a été envoyé avec succès!");
+        formRef.current.reset();
+      })
+      .catch((error) => {
         console.log(error.text);
         setSubmissionStatus('error');
+        alert("Une erreur s'est produite. Veuillez réessayer plus tard.");
       });
   };
 
@@ -58,8 +62,7 @@ const Contact = () => {
           <textarea name="message" rows="7" placeholder="Votre message" required></textarea>
           <button type="submit" className="btn btn-primary">Envoyer</button>
         </form>
-        {submissionStatus === 'success' && <p>Votre message a été envoyé avec succès!</p>}
-        {submissionStatus === 'error' && <p>Une erreur s'est produite. Veuillez réessayer plus tard.</p>}
+        
       </div>
     </section>
   );
