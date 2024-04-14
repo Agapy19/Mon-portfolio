@@ -1,5 +1,5 @@
 import React from 'react'
-import CV from '/home/user-15-c1/Documents/PROJET/Portfolio/src/Images/cv.pdf'
+import CV from '/src/Images/cv.pdf'
 const BtnHeader = () => {
   return (
    <div className="btn-header">
