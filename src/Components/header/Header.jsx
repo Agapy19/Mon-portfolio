@@ -12,7 +12,7 @@ const Header = () => {
       <BtnHeader />
       <HeaderSocial />
       <div className="me">
-        <img src="src/Images/femme.png" alt="" />
+        <img src="/src/Images/femme.png" alt="" />
       </div>
       <a href="#contact" className='scroll-down'>Scroll Down</a>
     </header>
