@@ -1,9 +1,7 @@
 import React from 'react'
 import './Portfolio.css'
 import iwz from '/src/Images/iwz.png'
-import wast from '/home/user-15-c1/Documents/PROJET/Portfolio/src/Images/wast.png'
-import tictac from '/home/user-15-c1/Documents/PROJET/Portfolio/src/Images/tictactoe.png'
-import todolist from '/home/user-15-c1/Documents/PROJET/Portfolio/src/Images/todolist.png'
+
 
 
 const data = [
